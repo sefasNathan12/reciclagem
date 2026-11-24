@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spot Trash – protótipo v3</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="top"><p class="logo"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><path d="M11 3v4M16 3v4M21 3v4M11 25v4M16 25v4M21 25v4M3 11h4M3 16h4M3 21h4M25 11h4M25 16h4M25 21h4" stroke="var(--brand)" stroke-width="2" stroke-linecap="round"/><rect x="7" y="7" width="18" height="18" rx="3" fill="var(--brand)"/><path d="M12 20c0-5 4-8 9-8 0 5-3 9-9 8z" fill="var(--brand-ink)"/></svg>Spot Trash</p>
+<div class="tools" role="group" aria-label="Ajustes de leitura"><button class="sec" onclick="fz(-1)" aria-label="Diminuir texto">A−</button><button class="sec" onclick="fz(1)" aria-label="Aumentar texto">A+</button><button class="sec" onclick="th()" id="thb" aria-label="Alternar tema">Tema</button></div></header>
+<nav class="tabs" aria-label="Seções" id="tabs"></nav>
+<main id="main" tabindex="-1" aria-live="polite"></main>
+<p class="note ft">Protótipo v3 para teste exploratório. Cidades, pontos e horários são exemplos inventados e não representam estabelecimentos reais. Confirme sempre com o ponto antes de ir. Nenhum dado pessoal é pedido. Pontos cadastrados, relatos e preferências ficam salvos só neste aparelho (nada é enviado a um servidor).</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
